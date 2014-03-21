@@ -98,22 +98,22 @@ body {
     src: local('MTCORSVA'), font-url('MTCORSVA.ttf') format('truetype');
 }
 
+
+html,body{
+  height:100%;
+  background: #333;
+}
+
+
 body{
-  
     background: image-url('/images/background.jpg', false, true) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-align:center;
 }
 
-html,body{
-  height:100%;
-}
-
-body{
-  text-align:center;
-}
 .cover{
   position:fixed;
   top:0;
@@ -202,7 +202,7 @@ h2 i{
 
 h3{
   color:white;
-    font-family: 'MTCORSVA';
+    font-family: 'MTCORSVA', Monotype Corsiva, serif;
   font-size:5em;
   
   background:rgba(0,0,0,.5);
