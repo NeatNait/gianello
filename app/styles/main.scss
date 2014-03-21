@@ -89,3 +89,131 @@ body {
         border-bottom: 0;
     }
 }
+
+
+
+@font-face {
+    font-family: 'MTCORSVA';
+    src: url('fonts/MTCORSVA.eot');
+    src: local('MTCORSVA'), url('fonts/MTCORSVA.ttf') format('truetype');
+}
+
+body{
+  
+    background: image-url('/images/background.jpg', false, true) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html,body{
+  height:100%;
+}
+
+body{
+  text-align:center;
+}
+.cover{
+  position:fixed;
+  top:0;
+  z-index:-9;
+  width:100%;
+  height:100%;
+  background:#ff0066;
+  /*background:rgba(255, 0, 102, 0.1);*/
+  background:rgba(0, 0, 0, .6);
+  transition:all .5s ease;
+}
+
+.cover.pink{
+  background:rgba(255, 0, 102, 0.0);    
+}
+body:hover .cover.pink{
+  /*background:rgba(255, 0, 102, 0.1);  */
+}
+/*
+body:hover h1{
+  color:white;
+  text-shadow:none;
+}*/
+
+h1{
+  text-align:center;
+  font-family:"MTCORSVA", Monotype Corsiva, serif;
+  color:white;
+  color:#ff0066;
+  text-shadow:2px 2px 0px white;/*,
+    0 5px 100px white;*/
+  font-size:18em;
+  /*letter-spacing:-8px;*/
+  padding:0;
+  margin:0;
+  margin-top:.4em;
+  /*animation:fade 2s ease alternate infinite;*/
+}
+
+h2{
+  text-align:center;
+  font-size:6em;
+  color:white;
+  /*text-shadow:0 5px 50px white;*/
+  padding:0;
+  letter-spacing:-.02em;
+  margin:0;
+  padding:0;
+}
+
+h2 span, i{
+  color:#ff0066;
+  text-shadow:2px 2px 0px white;
+}
+h2 span{
+  font-family:"MTCORSVA", Monotype Corsiva, serif;
+  font-size:1.8em;
+  position:relative;
+  top:33px;
+}
+
+h2 i{
+  
+  font-size:.8em;
+}
+
+
+/*@keyframes fade{
+  to{
+    color:#f17;
+  }
+}*/
+/*.fa-heart-o{
+  animation:beat 1.2s ease infinite alternate;
+}
+
+@keyframes beat{
+  from{
+    transform:scale(.9);
+  }
+
+  to{
+    transform:scale(1.1);
+  }
+}*/
+
+h3{
+  color:white;
+    font-family: 'MTCORSVA';
+  font-size:5em;
+  
+  background:rgba(0,0,0,.5);
+}
+
+h3 span{
+  font-family:sans-serif;
+  font-size:.5em;
+}
+
+a.phone, a.phone:hover{
+    color:white;
+    text-decoration: none;
+}
