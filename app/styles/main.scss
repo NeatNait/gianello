@@ -94,8 +94,8 @@ body {
 
 @font-face {
     font-family: 'MTCORSVA';
-    src: url('fonts/MTCORSVA.eot');
-    src: local('MTCORSVA'), url('fonts/MTCORSVA.ttf') format('truetype');
+    src: font-url('MTCORSVA.eot');
+    src: local('MTCORSVA'), font-url('MTCORSVA.ttf') format('truetype');
 }
 
 body{
