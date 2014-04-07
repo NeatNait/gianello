@@ -100,19 +100,99 @@ body {
 
 
 html,body{
-  height:100%;
+  height:200%;
   background: #333;
 }
 
 
 body{
     background: image-url('/images/background.jpg', false, true) no-repeat center center fixed;
+    background-image: fixed;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     text-align:center;
 }
+
+
+
+
+
+.carta{
+  display: inline;
+}
+
+h1.carta{
+
+  text-align:center;
+  font-family:"MTCORSVA", Monotype Corsiva, serif;
+  color:#ff0066;
+  text-shadow:2px 2px 0px white;
+  font-size:40px;
+  
+
+}
+
+.elementocarta{
+  height: 100px;
+  width: 300px;
+  
+  margin-left: 300px;
+  margin-top: 50px;
+  color:white;
+  position: relative;
+  float:left;
+}
+.elementocarta2{
+ height: 100px;
+  width: 300px;
+  margin-top: 50px;
+  margin-right: 300px;
+  color:white;
+  float: right;
+
+  
+}
+.pizza{
+  float: center;
+  text-transform:uppercase;
+  font-size: 40px;
+}
+#tipo1{
+font-family:'Sonsie One', sans-serif;
+}
+
+#tipo2{
+font-family: 'Voltaire', sans-serif;
+}
+
+#tipo3{
+  font-family: 'Vidaloka';
+}
+
+#tipo4{
+  font-family: 'IM Fell English SC', serif;
+}
+#tipo5{
+  font-family: 'Maiden Orange';
+}
+#tipo6{
+  font-family: 'Kaushan Script';
+}
+.descripcion{
+  font-size:15px;
+}
+
+
+
+
+
+
+
+
+
 
 .cover{
   position:fixed;
